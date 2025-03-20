@@ -23,6 +23,7 @@ function showwinner(userwin,userchoice,computerchoice){
         console.log("you win");
         msg.innerText=`you win! ${userchoice} beats ${computerchoice}`;
         msgcontainer.style.backgroundColor = "green";
+        msgcontainer.style.textalgin="center";
         userscore++;
         myscore.innerText = userscore;
         myscore.style.fontSize = "3rem";
